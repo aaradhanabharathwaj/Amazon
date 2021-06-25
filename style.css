@@ -1,0 +1,53 @@
+body{
+    font-family: 'Viaoda Libre', cursive;
+    background:url(Background.png);
+    color: rgb(0, 0, 0);  
+ 
+}
+.btn_button{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    font-family: gabriola;
+    font-size: 25px;   
+    border: 3px solid crimson;
+    box-shadow: 3px 3px 3px rgb(255, 0, 106);
+}
+::selection{
+    color: white;
+    background-color: black;
+}
+.dropbtn{
+    background-color:crimson;
+    color: white;
+ font-size: 18px;
+ padding: 10px;
+    font-family: 'Viaoda Libre', cursive;
+    border-radius:10px;
+    border: 2px solid crimson;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.dropdown:hover 
+.dropdown-content {
+    display: block;
+}
